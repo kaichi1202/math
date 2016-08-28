@@ -5,6 +5,9 @@ public class Math{
 				for(int num2 = 0; num2 < 24; num2++){
 					int result = sosuu[num1] - sosuu[num2];
 					if (result == i){
+						if (isSosuu(result)){
+							continue;
+						}
 						System.out.println(sosuu[num1] + " - " + sosuu[num2] + " = " + result);
 					}
 				}
