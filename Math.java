@@ -1,9 +1,6 @@
 public class Math{
 	public static void main(String[] args){
 		for(int i = 1; i <= 100; i++){
-			if(isSosuu(i)){
-				continue;
-			}
 			for(int num1 = 0; num1 < 24; num1++){
 				for(int num2 = 0; num2 < 24; num2++){
 					int result = sosuu[num1] - sosuu[num2];
